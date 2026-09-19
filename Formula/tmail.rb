@@ -1,7 +1,7 @@
 class Tmail < Formula
   desc "Gmail-inspired, keyboard-first terminal email client backed by the Himalaya CLI"
   homepage "https://github.com/jodaka/tmail"
-  version "0.8.1"
+  version "0.8.2"
 
   livecheck do
     url :stable
@@ -12,19 +12,19 @@ class Tmail < Formula
   depends_on "himalaya"
 
   url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "41777cc881872bc22de9be11b8166702de2ac7943d3850f894c8ef8fb0fd6139"
+  sha256 "c7c7b1b549043641f4798c6a54f39aac32163e8a41f31c341e5d02e03c5e8f8e"
 
   on_macos do
     on_intel do
       url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "72db603fc9f60ef3aeb399845780954a41f4800b2aeaf4b1da8f8c00d6a06746"
+      sha256 "f053454573948e0a4a2179da4232b67acf9c468c80e0a0a0c259ecc105c45a9b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7b30be3cee778970e611b8d0fc328d2daa8d4b9c37fab406c33cdbde7361f124"
+      sha256 "d79a3905081e4bf3450a1b82e98f57f47a96c276d9ee6b804f730c6749733bfd"
     end
   end
 
