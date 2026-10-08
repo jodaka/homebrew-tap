@@ -12,23 +12,23 @@ class Tmail < Formula
   depends_on "himalaya"
 
   url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "4131048e771b20ddf65d9e89440dd7379703fef00cb00e947ff80fefe5c6882a"
+  sha256 "5b929319b8422072ddcecd6910588d0f98c5012c5d91c3e473a9e906769414d9"
 
   on_macos do
     on_intel do
       url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "7a6ece2212a0f532bba712f93c2035197727aed4dac84392650f57848ce33bfa"
+      sha256 "dc83d203e299e198640706720b50fe09441d8d0731a2d3c6e6b3a2d5a2fd5f80"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "08632a5c15fe0264a7c92f95acea4c9aa79bf02f6224465556ce3d96148c80f6"
+      sha256 "c4497386c5b961e3611f7737856e4642280286c9016f30f642a996b6c252692a"
     end
     on_arm do
       url "https://github.com/jodaka/tmail/releases/download/v#{version}/tmail-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "64672b1d40ed90641c7cbd61e4a040f1cc098326b50d598e1f7b932b34d561b1"
+      sha256 "d5d7a913f366061fc01b384e814f526203c76b58a7edec624f5c79eca82d7785"
     end
   end
 
